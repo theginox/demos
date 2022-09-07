@@ -1,6 +1,8 @@
 #!/bin/bash
 
 #Simulating some activities
+sleep 3
 cat /etc/passwd > /tmp/extracted_users.txt
+sleep 5
 ls /tmp
-cat /extracted_users.txt
+cat /tmp/extracted_users.txt

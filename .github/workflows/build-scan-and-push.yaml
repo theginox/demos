@@ -1,9 +1,9 @@
 env:
     SYSDIG_SECURE_ENDPOINT: "https://eu1.app.sysdig.com"
     REGISTRY_HOST: "docker.io"
-    IMAGE_NAME: "mytestimage"
+    IMAGE_NAME: "githubactoins-demo"
     IMAGE_TAG: "my-tag"
-    DOCKERFILE_CONTEXT: "gphomelab2021/githubactoins-demo"
+    DOCKERFILE_CONTEXT: "gphomelab2021"
   
 name: Container build, scan and push
 

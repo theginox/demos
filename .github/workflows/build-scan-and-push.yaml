@@ -1,9 +1,9 @@
 env:
     SYSDIG_SECURE_ENDPOINT: "https://eu1.app.sysdig.com"
     REGISTRY_HOST: "docker.io"
-    IMAGE_NAME: "githubactoins-demo"
+    IMAGE_NAME: "githubactions-demo"
     IMAGE_TAG: "my-tag"
-    DOCKERFILE_CONTEXT: "githubactions-demo/"
+    DOCKERFILE_CONTEXT: "githubactions-demo/java-image/"
   
 name: Container build, scan and push
 

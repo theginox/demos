@@ -3,7 +3,7 @@ env:
     REGISTRY_HOST: "docker.io"
     IMAGE_NAME: "githubactoins-demo"
     IMAGE_TAG: "my-tag"
-    DOCKERFILE_CONTEXT: "gphomelab2021/"
+    DOCKERFILE_CONTEXT: "githubactions-demo/"
   
 name: Container build, scan and push
 

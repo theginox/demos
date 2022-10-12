@@ -3,7 +3,7 @@ env:
     REGISTRY_HOST: "docker.io"
     IMAGE_NAME: "githubactions-demo"
     IMAGE_TAG: "my-tag"
-    DOCKERFILE_CONTEXT: "githubactions-demo/java-image/"
+    DOCKERFILE_CONTEXT: "githubactions-demo/nginx-image/"
   
 name: Container build, scan and push
 
